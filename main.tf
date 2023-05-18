@@ -9,5 +9,3 @@ module "gitops" {
     buildspec_file = ".buildspec.yaml"
 
 }
-
-#mention the users that they can use codebuild env vars which related to the github event (E.g. - user, PR number, etc.)
