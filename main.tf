@@ -1,6 +1,6 @@
 module "gitops" {
-    source = "../module"
-    #version = 0.0.1
+    source  = "Senora-dev/gitops/aws"
+    version = "~>1.0.0"
     name = "myproject-ci"
     description = "This is our deplopyment project."
     github_repository = "https://github.com/Senora-dev/gitops-using-codebuild.git"
